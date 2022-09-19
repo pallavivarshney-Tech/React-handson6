@@ -62,7 +62,7 @@ setId(localStorage.getItem("Id"))
 {/* <button onClick={(e)=>handleSubmit} class="btn btn-danger button">Cancel</button>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 <button onClick={(e)=>handleSubmit} type="Submit" class="btn btn-success">Update </button> */}
 {/* <button onClick={(e)=>handleSubmit(e)} type="submit">Update</button> */}
-<button type="button" class="btn btn-danger">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button onClick={(e)=>handleSubmit(e)} type="button" class="btn btn-danger">Cancel</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <button onClick={(e)=>handleSubmit(e)} type="button" class="btn btn-success">Update</button>
 </div>
 </div>
