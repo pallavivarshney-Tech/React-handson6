@@ -6,6 +6,9 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import Students from './Components/Students';
 import PageNotFound from './Components/PageNotFound';
+import AddNewStudent from './Components/AddNewStudent';
+import Update from './Components/Update';
+// import Edit from './Components/Edit';
 
 function App() {
   return (
@@ -18,6 +21,8 @@ function App() {
           <Route path='Students' element={<Students />}/>
           <Route path='Contact' element={<Contact />}/>
           <Route path='/*' element={<PageNotFound />}/>
+          <Route path='AddNewStudent' element={<AddNewStudent/>}/>
+          <Route path='Update' element={<Update/>}/>
         </Routes>
       </Router> 
     </div>
